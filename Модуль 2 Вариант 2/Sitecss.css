@@ -1,0 +1,356 @@
+/*Сайт делал в Google Chrome */
+
+
+body{margin: 0px;
+padding: 0px;}
+.header{
+display:grid;
+grid-template-columns: repeat(6,1fr);
+    background-color: #12A0F0;
+height:100px;
+width:auto;
+justify-content: center;
+}
+
+.logo{
+width:200px;
+height:100px;
+}
+
+.titlet{
+    font-size:23px;
+    text-align: center;
+    margin-top:35px;
+    color:black;
+    text-decoration: none;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 40% 1fr;
+background-image: url(Trainer-Tracy.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+width:auto;
+height:800px;
+}
+
+.contenttext{
+    font-size:23px;
+    grid-column:2/3;
+    width:auto;
+    padding:60px;
+    color:black;
+}
+
+.titlebg{background-color: #12A0F0;
+width:auto;
+height:50px;}
+
+.title{
+    font-size:23px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.preim{display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-row-gap:100px;
+}
+
+.preimt{font-size:30px;
+text-align:center;
+width:330px;
+margin:auto;}
+
+.novosti{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    background-color: #ffb459;
+    width:auto;
+height:1050px;
+}
+
+.podl{
+background-color: white;
+width:500px;
+height:400px;
+margin: auto;
+margin-top: 100px;
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 10%;
+}
+
+.podltitle{
+background-color: gray;
+width:auto;
+height:60px;
+text-align:center;
+font-size:23px;
+color:white;
+}
+
+.text{
+font-size: 23px;
+padding:30px;
+}
+
+.prepodavtext {
+    font-size: 18px;
+    color:white;
+    }
+    
+    .prepodavatel {
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 25% 30% 30%;
+    color:black;
+    height: 1300px;
+    padding: 10px;
+    }
+    
+    .prepodavatelphoto {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .prepodavateltext {
+    font-size: 18px;
+    color:black;
+    }
+    
+    .pop {font-size: 36px;
+    text-align: center;
+    grid-column:1/3;
+    color:black;
+    }
+
+    .prepodavateltext {
+        font-size: 18px;
+        color:black;
+        }
+        
+        .prepodavateltext {
+            font-size: 20px;
+            color:black;
+            }
+
+.preimbg{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 20% 20% ;
+width:auto;
+height:1000px;
+}
+
+.textpreim{
+font-size: 23px;
+text-align: center;
+width:600px;
+margin:0 auto;
+margin-top: 80px;
+height:300px
+}
+
+.otziv{
+    display:grid;
+    grid-template-columns: 0.4fr 1fr;
+    background-color: #ffb459;
+    width:auto;
+    height:1400px
+}
+
+.imgd{height:250px;
+width:250px;
+margin: 0 auto;
+padding: 30px;}
+
+.textotziv{
+font-size:23px;
+padding:30px;
+color:black;
+}
+
+.name{
+color:black;
+font-weight: bold;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+background-color:#12A0F0;
+width:auto;
+height:200px;
+}
+
+.textfooter{font-size:23px;
+margin:0 auto;
+margin-top: 50px;
+width:260px;}
+
+.socialimg{width:350px;
+height:200px;}
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+    
+    .header{
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(6,15%);
+            background-color: #12A0F0;
+        height:500px;
+        width:auto;
+        margin:0 auto;
+        }
+.logo{
+margin:0 auto;
+}
+
+.content{
+    display:grid;
+    grid-template-columns:1fr;
+background-repeat: no-repeat;
+
+width:auto;
+height:800px;
+}
+
+.contenttext{
+    font-size:23px;
+    width:auto;
+    padding:60px;
+    color:black;
+}
+
+.preim{display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap:100px;
+    }
+
+.preimt{font-size:23px;}
+
+
+    .prepodavatel {
+        display: grid;
+        grid-gap:10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 4000px;
+        padding:30px;
+        }
+        
+    .prepodavatelphoto {
+            height: 200px;
+            width: 200px;
+            margin:0 auto;
+        }
+        
+        .prepodavateltext {
+        font-size: 18px;
+        color:black;
+        }
+
+        .novosti{
+            display:grid;
+            grid-template-columns:1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            background-color: #ffb459;
+            width:auto;
+        height:1600px;
+        }
+        
+        .title{font-size: 18px;}
+        .podl{
+        background-color: white;
+        width:auto;
+        height:400px;
+        margin: auto;
+        margin-top: 100px;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10%;
+        }
+        
+        .podltitle{
+        background-color: gray;
+        width:auto;
+        height:60px;
+        text-align:center;
+        font-size:18px;
+        color:white;
+        }
+        
+        .text{
+        font-size: 17px;
+        padding:30px;
+        }
+
+        .preimbg{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 20% 20% 20% ;
+        width:auto;
+        height:1000px;
+        }
+        
+        .textpreim{
+        font-size: 20px;
+        text-align: center;
+        width:auto;
+        margin:0 auto;
+        margin-top: 80px;
+        height:300px
+        }
+
+        .otziv{
+            display:grid;
+            grid-template-columns:1fr;
+            background-color: #ffb459;
+            width:auto;
+            height:2500px
+        }
+        
+        .imgd{height:200px;
+        width:200px;
+        margin: 0 auto;
+        padding: 30px;}
+        
+        .textotziv{
+        font-size:15px;
+        padding:30px;
+        color:black;
+        }
+        
+        .name{
+        color:black;
+        font-weight: bold;
+        }
+
+        .footer{
+            display: grid;
+            grid-template-columns: 1fr;
+        background-color:#12A0F0;
+        width:auto;
+        height:600px;
+        }
+        
+        .textfooter{font-size:23px;
+        margin:0 auto;
+        margin-top: 50px;
+        width:260px;}
+        
+        .socialimg{width:350px;
+        height:200px;
+    margin:0 auto;}
+
+}
+
